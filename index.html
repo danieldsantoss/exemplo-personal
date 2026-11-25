@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rafael Exemplo · Personal Trainer | Site de demonstração</title>
+  <meta name="description" content="Site de demonstração de personal trainer autônomo: treino individual presencial e online. Pessoa e dados fictícios." />
+  <meta property="og:title" content="Rafael Exemplo · Personal Trainer" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1758875569256-f37c438cac65?auto=format&fit=crop&w=1200&q=80" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Topo ===== -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#inicio" class="logo" aria-label="Rafael Exemplo, início">
+        <span class="logo-marca">RE</span><span class="logo-texto">RAFAEL EXEMPLO<small>Personal Trainer</small></span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Menu principal">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#planos">Atendimento</a>
+        <a href="#treinos">Treinos</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#contato" class="menu-cta">Aula experimental</a>
+      </nav>
+      <button class="menu-botao" id="menuBotao" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Início: carrossel ===== -->
+    <section class="hero" id="inicio" aria-label="Destaques">
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="hero-foto" src="https://images.unsplash.com/photo-1758875569256-f37c438cac65?auto=format&fit=crop&w=1920&q=80" alt="Rafael acompanhando uma aluna no levantamento de barra" /></div>
+          <div class="swiper-slide"><img class="hero-foto" src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1920&q=80" alt="Levantamento terra em academia escura" loading="lazy" /></div>
+          <div class="swiper-slide"><img class="hero-foto" src="https://images.unsplash.com/photo-1599552683573-9dc48255fe85?auto=format&fit=crop&w=1920&q=80" alt="Mulher treinando ao ar livre" loading="lazy" /></div>
+          <div class="swiper-slide"><img class="hero-foto" src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?auto=format&fit=crop&w=1920&q=80" alt="Homem fazendo exercício funcional com kettlebell" loading="lazy" /></div>
+        </div>
+        <div class="hero-paginacao"></div>
+      </div>
+
+      <div class="hero-conteudo container">
+        <p class="hero-tag">Rafael Exemplo · Personal Trainer</p>
+        <h1>Treino feito<br />para a <em>sua</em> rotina.</h1>
+        <p class="hero-texto">Eu acompanho cada aluno de perto, do primeiro treino ao resultado. Atendimento individual, presencial em Curitiba ou online.</p>
+        <div class="hero-botoes">
+          <a href="#contato" class="btn btn-destaque">Agendar aula experimental</a>
+          <a href="#sobre" class="btn btn-contorno">Conhecer o Rafael</a>
+        </div>
+      </div>
+
+      <div class="hero-setas container">
+        <button class="hero-seta hero-anterior" aria-label="Foto anterior">&#8592;</button>
+        <button class="hero-seta hero-proxima" aria-label="Próxima foto">&#8594;</button>
+      </div>
+    </section>
+
+    <!-- ===== Sobre ===== -->
+    <section class="secao" id="sobre">
+      <div class="container sobre">
+        <div class="sobre-fotos aparecer">
+          <img class="sobre-foto1" src="https://images.unsplash.com/photo-1758875568932-0eefd3e60090?auto=format&fit=crop&w=900&q=80" alt="Foto do personal trainer Rafael Exemplo" loading="lazy" />
+          <div class="sobre-nome"><strong>Rafael Exemplo</strong><span>Personal Trainer · CREF 000000-G/PR</span></div>
+          <div class="sobre-selo"><strong>1:1</strong><span>atendimento<br />individual</span></div>
+        </div>
+        <div class="sobre-texto aparecer">
+          <p class="rotulo">Sobre mim</p>
+          <h2>Prazer, eu sou o <em>Rafael</em>.</h2>
+          <p>
+            Sou personal trainer há 8 anos e trabalho por conta própria. Isso significa que quem monta, acompanha
+            e ajusta o seu treino sou eu, do começo ao fim, sem repassar para outra pessoa.
+          </p>
+          <p>
+            Comecei no esporte jogando vôlei e descobri na Educação Física a vontade de ajudar as pessoas a se sentirem bem no próprio corpo. Hoje atendo em academia, em casa, ao ar livre e online.
+          </p>
+          <p class="assinatura">Rafael Exemplo</p>
+          <div class="numeros">
+            <div><strong data-contar="350" data-sufixo="+">0</strong><span>alunos atendidos</span></div>
+            <div><strong data-contar="8" data-sufixo="anos">0</strong><span>de experiência</span></div>
+            <div><strong data-contar="97" data-sufixo="%">0</strong><span>renovam o plano</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Formação ===== -->
+    <section class="secao secao-cinza" id="formacao">
+      <div class="container formacao">
+        <div class="formacao-lado aparecer">
+          <p class="rotulo">Formação</p>
+          <h2>Estudo para treinar<br />você <em>melhor</em>.</h2>
+          <p class="cabeca-texto">Cada curso que faço vira um treino mais seguro e mais eficiente para os meus alunos.</p>
+          <figure class="formacao-foto">
+            <img src="https://images.unsplash.com/photo-1648542036561-e1d66a5ae2b1?auto=format&fit=crop&w=900&q=80" alt="Aula individual com kettlebell" loading="lazy" />
+          </figure>
+        </div>
+
+        <div class="aparecer">
+          <ol class="linha-tempo">
+            <li>
+              <span class="lt-ano">2016</span>
+              <div><h3>Bacharelado em Educação Física</h3><p>Universidade Exemplo · Curitiba</p></div>
+            </li>
+            <li>
+              <span class="lt-ano">2019</span>
+              <div><h3>Pós-graduação em Fisiologia do Exercício</h3><p>Instituto Exemplo</p></div>
+            </li>
+            <li>
+              <span class="lt-ano">2022</span>
+              <div><h3>Especialização em Treinamento de Força</h3><p>Escola Exemplo de Esporte</p></div>
+            </li>
+          </ol>
+
+          <h3 class="cert-titulo">Cursos e certificações</h3>
+          <ul class="certificados">
+            <li><span>✓</span>Treinamento funcional</li>
+            <li><span>✓</span>Treino para corrida de rua</li>
+            <li><span>✓</span>Treino para gestantes</li>
+            <li><span>✓</span>Treino para idosos</li>
+            <li><span>✓</span>Reabilitação pós-lesão</li>
+            <li><span>✓</span>Primeiros socorros</li>
+          </ul>
+
+          <div class="cref-cartao">
+            <span class="cref-icone">CREF</span>
+            <div><strong>CREF 000000-G/PR</strong><small>Registro no Conselho Regional de Educação Física</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Planos ===== -->
+    <section class="secao secao-escura" id="planos">
+      <div class="container">
+        <div class="cabeca aparecer">
+          <p class="rotulo">Atendimento</p>
+          <h2>Como posso te ajudar</h2>
+          <p class="cabeca-texto">Em todos, eu faço a sua avaliação física e monto o treino só para você.</p>
+        </div>
+        <div class="servicos">
+          <article class="servico aparecer">
+            <span class="servico-num">01</span>
+            <h3>Personal presencial</h3>
+            <p>Eu treino ao seu lado, na academia, na sua casa ou no parque, corrigindo cada movimento.</p>
+            <p class="preco">a partir de <strong>R$ 000</strong>/mês</p>
+          </article>
+          <article class="servico servico-destaque aparecer">
+            <span class="servico-selo">Mais escolhido</span>
+            <span class="servico-num">02</span>
+            <h3>Consultoria online</h3>
+            <p>Treino no aplicativo, vídeos dos exercícios e eu no WhatsApp para tirar dúvidas, de onde você estiver.</p>
+            <p class="preco">a partir de <strong>R$ 000</strong>/mês</p>
+          </article>
+          <article class="servico aparecer">
+            <span class="servico-num">03</span>
+            <h3>Treino em dupla</h3>
+            <p>Treine com o seu par, amigo ou familiar, dividindo o valor e com a mesma atenção.</p>
+            <p class="preco">a partir de <strong>R$ 000</strong>/mês</p>
+          </article>
+          <article class="servico aparecer">
+            <span class="servico-num">04</span>
+            <h3>Avaliação física</h3>
+            <p>Medidas, composição corporal e testes para saber de onde você parte.</p>
+            <p class="preco">a partir de <strong>R$ 000</strong></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Treinos (galeria) ===== -->
+    <section class="secao" id="treinos">
+      <div class="container">
+        <div class="cabeca cabeca-linha aparecer">
+          <div>
+            <p class="rotulo">Galeria</p>
+            <h2>Treinos com os meus alunos</h2>
+          </div>
+          <div class="filtros" role="tablist" aria-label="Filtrar treinos">
+            <button class="filtro ativo" data-filtro="todos" role="tab" aria-selected="true">Todos</button>
+            <button class="filtro" data-filtro="musculacao" role="tab" aria-selected="false">Musculação</button>
+            <button class="filtro" data-filtro="funcional" role="tab" aria-selected="false">Funcional</button>
+            <button class="filtro" data-filtro="corrida" role="tab" aria-selected="false">Corrida</button>
+            <button class="filtro" data-filtro="mobilidade" role="tab" aria-selected="false">Mobilidade</button>
+          </div>
+        </div>
+
+        <div class="galeria" id="galeria">
+          <figure class="obra obra-alta" data-cat="musculacao">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=900&q=80" alt="Treino de bíceps com barra" loading="lazy" />
+            <figcaption><strong>Hipertrofia</strong><span>Musculação</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="funcional">
+            <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=900&q=80" alt="Treino com cordas navais" loading="lazy" />
+            <figcaption><strong>Condicionamento</strong><span>Funcional</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="corrida">
+            <img src="https://images.unsplash.com/photo-1504025468847-0e438279542c?auto=format&fit=crop&w=900&q=80" alt="Corrida em trilha na montanha" loading="lazy" />
+            <figcaption><strong>Trail run</strong><span>Corrida</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="mobilidade">
+            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="Alongamento ao pôr do sol" loading="lazy" />
+            <figcaption><strong>Alongamento</strong><span>Mobilidade</span></figcaption>
+          </figure>
+          <figure class="obra obra-larga" data-cat="musculacao">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80" alt="Levantamento de barra com anilhas" loading="lazy" />
+            <figcaption><strong>Força</strong><span>Musculação</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="funcional">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=900&q=80" alt="Treino funcional com kettlebell" loading="lazy" />
+            <figcaption><strong>Kettlebell</strong><span>Funcional</span></figcaption>
+          </figure>
+          <figure class="obra obra-alta" data-cat="mobilidade">
+            <img src="https://images.unsplash.com/photo-1552196527-bffef41ef674?auto=format&fit=crop&w=900&q=80" alt="Exercício de mobilidade de ombros" loading="lazy" />
+            <figcaption><strong>Mobilidade de ombro</strong><span>Mobilidade</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="corrida">
+            <img src="https://images.unsplash.com/photo-1603455778956-d71832eafa4e?auto=format&fit=crop&w=900&q=80" alt="Corrida no fim de tarde" loading="lazy" />
+            <figcaption><strong>Rodagem leve</strong><span>Corrida</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="musculacao">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80" alt="Treino com halteres" loading="lazy" />
+            <figcaption><strong>Halteres</strong><span>Musculação</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="funcional">
+            <img src="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?auto=format&fit=crop&w=900&q=80" alt="Remo ergométrico" loading="lazy" />
+            <figcaption><strong>Remo</strong><span>Funcional</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="mobilidade">
+            <img src="https://images.unsplash.com/photo-1611094607507-8c8173e5cf33?auto=format&fit=crop&w=900&q=80" alt="Postura de yoga em frente à janela" loading="lazy" />
+            <figcaption><strong>Yoga</strong><span>Mobilidade</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="corrida">
+            <img src="https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?auto=format&fit=crop&w=900&q=80" alt="Homem correndo em estrada de terra" loading="lazy" />
+            <figcaption><strong>Resistência</strong><span>Corrida</span></figcaption>
+          </figure>
+          <figure class="obra" data-cat="musculacao">
+            <img src="https://images.unsplash.com/photo-1550345332-09e3ac987658?auto=format&fit=crop&w=900&q=80" alt="Mulher concentrada antes do treino" loading="lazy" />
+            <figcaption><strong>Foco no treino</strong><span>Musculação</span></figcaption>
+          </figure>
+        </div>
+
+        <!-- Antes e depois -->
+        <div class="comparar aparecer">
+          <div class="comparar-texto">
+            <p class="rotulo">Evolução</p>
+            <h3>Arraste para comparar</h3>
+            <p>Aqui entram fotos de antes e depois dos meus alunos, sempre com autorização. No exemplo, a mesma foto mostra como a comparação funciona.</p>
+          </div>
+          <div class="comparador" id="comparador" style="--pos: 50%">
+            <img class="comparador-depois" src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1400&q=80" alt="Foto de depois (exemplo)" loading="lazy" />
+            <img class="comparador-antes" src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1400&q=80" alt="Foto de antes (exemplo)" loading="lazy" />
+            <span class="comparador-etq etq-antes">Antes</span>
+            <span class="comparador-etq etq-depois">Depois</span>
+            <div class="comparador-linha"><span>&#8596;</span></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Método ===== -->
+    <section class="secao secao-cinza" id="metodo">
+      <div class="container processo">
+        <div class="processo-foto aparecer">
+          <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=900&q=80" alt="Aluno treinando com cordas navais" loading="lazy" />
+        </div>
+        <div class="aparecer">
+          <p class="rotulo">Método</p>
+          <h2>Como eu trabalho<br />com você.</h2>
+          <ol class="etapas">
+            <li><span>1</span><div><h3>Conversa e avaliação</h3><p>Eu entendo o seu objetivo, a sua rotina e o seu histórico.</p></div></li>
+            <li><span>2</span><div><h3>Treino sob medida</h3><p>Monto o plano com exercícios, cargas e dias que cabem na sua semana.</p></div></li>
+            <li><span>3</span><div><h3>Acompanhamento</h3><p>Correção de cada movimento e conversa pelo WhatsApp entre os treinos.</p></div></li>
+            <li><span>4</span><div><h3>Reavaliação</h3><p>A cada 6 semanas eu meço a sua evolução e ajusto o plano.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Avaliações ===== -->
+    <section class="secao" id="avaliacoes">
+      <div class="container">
+        <div class="cabeca cabeca-linha aparecer">
+          <div>
+            <p class="rotulo">Avaliações</p>
+            <h2>Quem treina comigo</h2>
+          </div>
+          <div class="nota-geral">
+            <strong>4,9</strong>
+            <div><span class="estrelas" aria-label="Nota 4,9 de 5">★★★★★</span><small>Média de 64 avaliações</small></div>
+          </div>
+        </div>
+
+        <div class="swiper avaliacoes-swiper aparecer">
+          <div class="swiper-wrapper">
+            <article class="swiper-slide avaliacao">
+              <div class="avaliacao-topo"><span class="avatar">AS</span><div><strong>Ana Souza</strong><small>@ana.souza · Instagram</small></div><span class="ig" aria-hidden="true"></span></div>
+              <span class="estrelas" aria-label="5 estrelas">★★★★★</span>
+              <p>"Nunca tinha conseguido manter a academia. Com o acompanhamento, já são 8 meses sem parar."</p>
+            </article>
+            <article class="swiper-slide avaliacao">
+              <div class="avaliacao-topo"><span class="avatar">BM</span><div><strong>Bruno Matos</strong><small>@bruno.matos · Instagram</small></div><span class="ig" aria-hidden="true"></span></div>
+              <span class="estrelas" aria-label="5 estrelas">★★★★★</span>
+              <p>"Treino online muito bem explicado. Os vídeos e o suporte fazem toda a diferença."</p>
+            </article>
+            <article class="swiper-slide avaliacao">
+              <div class="avaliacao-topo"><span class="avatar">CL</span><div><strong>Carla Lima</strong><small>@carla.lima · Instagram</small></div><span class="ig" aria-hidden="true"></span></div>
+              <span class="estrelas" aria-label="5 estrelas">★★★★★</span>
+              <p>"Voltei a treinar depois de uma lesão no joelho, com toda a segurança e paciência."</p>
+            </article>
+            <article class="swiper-slide avaliacao">
+              <div class="avaliacao-topo"><span class="avatar">DR</span><div><strong>Diego Rocha</strong><small>@diego.rocha · Instagram</small></div><span class="ig" aria-hidden="true"></span></div>
+              <span class="estrelas" aria-label="5 estrelas">★★★★★</span>
+              <p>"Completei minha primeira meia maratona com a planilha de corrida. Recomendo demais."</p>
+            </article>
+            <article class="swiper-slide avaliacao">
+              <div class="avaliacao-topo"><span class="avatar">EF</span><div><strong>Elisa Freitas</strong><small>@elisa.f · Instagram</small></div><span class="ig" aria-hidden="true"></span></div>
+              <span class="estrelas" aria-label="5 estrelas">★★★★★</span>
+              <p>"Treino em dupla com o meu marido. O Rafael dá atenção para os dois e adapta tudo para cada um."</p>
+            </article>
+          </div>
+          <div class="avaliacoes-controles">
+            <button class="seta-redonda aval-anterior" aria-label="Avaliação anterior">&#8592;</button>
+            <div class="aval-paginacao"></div>
+            <button class="seta-redonda aval-proxima" aria-label="Próxima avaliação">&#8594;</button>
+          </div>
+        </div>
+
+        <div class="avaliar aparecer">
+          <p>Já treinou comigo? Conte como foi.</p>
+          <div>
+            <a class="btn btn-escuro" data-link="instagram" href="#" target="_blank" rel="noopener">Comentar no Instagram</a>
+            <a class="btn btn-contorno-escuro" data-link="google" href="#" target="_blank" rel="noopener">Avaliar no Google</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Instagram ===== -->
+    <section class="secao secao-curta secao-escura" id="instagram">
+      <div class="container">
+        <div class="cabeca cabeca-linha aparecer">
+          <div>
+            <p class="rotulo">Instagram</p>
+            <h2>@rafael.exemplo</h2>
+          </div>
+          <a class="btn btn-destaque" data-link="instagram" href="#" target="_blank" rel="noopener">Seguir no Instagram</a>
+        </div>
+        <div class="insta-grade">
+          <a class="insta-post aparecer" data-link="instagram" href="#" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1606902965551-dce093cda6e7?auto=format&fit=crop&w=600&h=600&q=75" alt="Post: treino de corrida" loading="lazy" /><span class="insta-info">♥ 842 &nbsp; 💬 31</span></a>
+          <a class="insta-post aparecer" data-link="instagram" href="#" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1543352632-5a4b24e4d2a6?auto=format&fit=crop&w=600&h=600&q=75" alt="Post: marmitas saudáveis" loading="lazy" /><span class="insta-info">♥ 1.106 &nbsp; 💬 58</span></a>
+          <a class="insta-post aparecer" data-link="instagram" href="#" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1591258370814-01609b341790?auto=format&fit=crop&w=600&h=600&q=75" alt="Post: abdominal com halter" loading="lazy" /><span class="insta-info">♥ 693 &nbsp; 💬 22</span></a>
+          <a class="insta-post aparecer" data-link="instagram" href="#" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&h=600&q=75" alt="Post: abdominal em casa" loading="lazy" /><span class="insta-info">♥ 954 &nbsp; 💬 40</span></a>
+          <a class="insta-post aparecer" data-link="instagram" href="#" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?auto=format&fit=crop&w=600&h=600&q=75" alt="Post: aula de alongamento em grupo" loading="lazy" /><span class="insta-info">♥ 1.318 &nbsp; 💬 63</span></a>
+          <a class="insta-post aparecer" data-link="instagram" href="#" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&w=600&h=600&q=75" alt="Post: aula de yoga" loading="lazy" /><span class="insta-info">♥ 771 &nbsp; 💬 27</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Perguntas ===== -->
+    <section class="secao" id="perguntas">
+      <div class="container perguntas">
+        <div class="aparecer">
+          <p class="rotulo">Dúvidas</p>
+          <h2>Perguntas frequentes</h2>
+          <p class="cabeca-texto">Não achou a sua? Chame no WhatsApp.</p>
+        </div>
+        <div class="acordeao aparecer">
+          <details open>
+            <summary>Nunca treinei. Posso começar?</summary>
+            <p>Pode, sim. O treino começa do seu nível e evolui no seu ritmo, com segurança.</p>
+          </details>
+          <details>
+            <summary>Como funciona a consultoria online?</summary>
+            <p>Você recebe o treino num aplicativo, com vídeos de cada exercício, e fala comigo pelo WhatsApp para tirar dúvidas e ajustar.</p>
+          </details>
+          <details>
+            <summary>Onde são os treinos presenciais?</summary>
+            <p>Na academia, na sua casa, no condomínio ou em parques da região, como for melhor para você.</p>
+          </details>
+          <details>
+            <summary>A aula experimental é paga?</summary>
+            <p>A primeira aula é gratuita e sem compromisso, para você me conhecer e conhecer o meu método.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contato ===== -->
+    <section class="secao secao-escura" id="contato">
+      <div class="container contato">
+        <div class="aparecer">
+          <p class="rotulo">Contato</p>
+          <h2>Vamos treinar <em>juntos</em>?</h2>
+          <ul class="contato-lista">
+            <li><span>Atendimento</span>Curitiba e região · Online para todo o Brasil</li>
+            <li><span>WhatsApp</span>(41) 90000-0000</li>
+            <li><span>E-mail</span>rafael@exemplo.com.br</li>
+            <li><span>Horários</span>Segunda a sábado, das 6h às 21h</li>
+          </ul>
+          <div class="mapa">
+            <iframe title="Mapa com a região de atendimento" src="https://www.google.com/maps?q=Parque+Barigui,+Curitiba+-+PR&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <form class="form aparecer" id="formContato" novalidate>
+          <h3>Agende a aula experimental</h3>
+          <label>Seu nome<input type="text" name="nome" required autocomplete="name" /></label>
+          <label>Telefone<input type="tel" name="telefone" required autocomplete="tel" placeholder="(41) 9 0000-0000" /></label>
+          <label>Objetivo
+            <select name="tipo">
+              <option>Emagrecer</option>
+              <option>Ganhar massa muscular</option>
+              <option>Condicionamento</option>
+              <option>Corrida</option>
+              <option>Saúde e qualidade de vida</option>
+            </select>
+          </label>
+          <label>Melhor horário e mais detalhes<textarea name="mensagem" rows="4"></textarea></label>
+          <button type="submit" class="btn btn-destaque">Enviar pelo WhatsApp</button>
+          <p class="form-aviso" id="formAviso" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-linha">
+      <a href="#inicio" class="logo logo-rodape"><span class="logo-marca">RE</span><span class="logo-texto">RAFAEL EXEMPLO<small>Personal Trainer</small></span></a>
+      <p>© <span id="ano">2026</span> Rafael Exemplo · CREF 000000-G/PR. Site de demonstração: pessoa e dados fictícios.</p>
+      <a data-link="instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </footer>
+
+  <a class="zap" data-link="whatsapp" href="#" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.3z"/></svg>
+  </a>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+    <button class="lb-fechar" aria-label="Fechar">&times;</button>
+    <button class="lb-seta lb-anterior" aria-label="Foto anterior">&#8592;</button>
+    <figure><img id="lbFoto" src="" alt="" /><figcaption id="lbLegenda"></figcaption></figure>
+    <button class="lb-seta lb-proxima" aria-label="Próxima foto">&#8594;</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
